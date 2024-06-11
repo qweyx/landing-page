@@ -150,3 +150,43 @@ div .cardStyle ~ p {
     align-self: flex-end;
     font-size: 25px;
 }
+/* Call to action section */
+.CallToAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 75px;
+}
+
+.CallToActionContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #3882f6;
+    border-radius: 10px;
+    background-color: #3882f6;
+    padding: 50px 150px;
+    width: 65%;
+}
+
+.CallToActionStyle h3,
+.CallToActionStyle p {
+    color: #f9faf8;
+}
+
+.CallToAction h3 {
+    font-size: 25px;
+}
+
+.CallToAction p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.CallToActionButton {
+    text-decoration: none;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
