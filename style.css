@@ -11,12 +11,11 @@ body {
     flex-direction: column;
     font-family: roboto, sans-serif;
 }
-
+/* Header logo and navigation bar */
 header {
     background-color: #1f2937;
 }
 
-/* Header logo and navigation bar */
 nav {
     display: flex;
     justify-content: space-between;
@@ -38,7 +37,7 @@ ul, li {
     font-weight: 300;
 }
 /* Hero section */
-section {
+.heroSection {
     display: flex;
     justify-content: space-between;
     margin: 100px 300px;
@@ -82,4 +81,48 @@ h1 {
     background-color: rgb(128, 128, 128);
     font-weight: 300;
     
+}
+/* Section with cards */
+.cardSection {
+    margin: 25px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    line-height: 25px;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #1f2937 
+}
+
+.cardContainer {
+      
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 0px;
+}
+
+.cardBox {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
+
+.cardStyle {
+    border: 4px solid #3882f6;
+    width: 175px;
+    height: 175px;
+    border-radius: 15px;
+}
+
+div .cardStyle ~ p {
+    width: 155px;
+    text-align: center;
+    font-size: 17px;
 }
